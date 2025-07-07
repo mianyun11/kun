@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>公益托管班</title>
+    <style>
+        *{
+            /*去掉所有元素内外边面*/
+            margin:0;
+            padding:0;
+        }
+        .title1{
+            /*w,vh是可视宽高百分比，它们的最大值是1g阳*/
+            width:100vw;
+            height:10vh;
+            background:#369;
+            color:#ffffff;
+            /*水平垂直居中*/
+            text-align:center;
+            line-height:10vh;
+            font-size: 18pt;
+        }
+        .back-button{
+            /*w,vh是可视宽高百分比，它们的最大值是1g阳*/
+            width:100vw;
+            height:5vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="title1">通知</div>
+    <div class="content">
+        1.点进去就是个通知，文字版的。<br>
+        2．小屋地图，暂时不要。<br>
+        3.课程介绍。点进去就是要给网页，课程简介用的。文字版本的<br>
+        4.公益活动。也是一个网页，文字版的，介绍一些公益活动。<br>
+        5．热线。就是一个咨询电话，和项目简介<br>
+    </div>
+    <button class="back-button" onclick="toindex()">返回</button>
+    <script>
+        function toindex() {
+            //跳转链接待定
+            window.location.href = "http://localhost:63342/tuoguan/index.html?_ijt=2si26uo8ri9s06dhe2i6nuc5po&_ij_reload=RELOAD_ON_SAVE";
+        }
+    </script>
+</body>
+</html>

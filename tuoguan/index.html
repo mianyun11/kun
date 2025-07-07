@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>公益托管班</title>
+    <style>
+        *{
+            /*去掉所有元素内外边面*/
+            margin:0;
+            padding:0;
+        }
+
+         .title1{
+            /*w,vh是可视宽高百分比，它们的最大值是1g阳*/
+            width:100vw;
+            height:10vh;
+            background:#369;
+             color:#ffffff;
+            /*水平垂直居中*/
+            text-align:center;
+            line-height:10vh;
+             font-size: 12pt;
+    }
+    </style>
+</head>
+<body>
+    <div class="title1">青岛市总工会“妈妈小屋”公益托管报名系统</div>
+    <div class="content">
+        <div class="notice">
+            <img src="static/image/tongzhitu.png" alt="通知" onclick="toNotice()">
+        </div>
+        <div class="nav1">
+            <ul class="ullist">
+                <li><a href="#">课程介绍</a></li>
+                <li><a href="#">公益活动</a></li>
+                <li><a href="#">心理咨询</a></li>
+            </ul>
+        </div>
+        <div class="lijietuoguan"></div>
+    </div>
+    <script>
+        function toNotice() {
+            //跳转链接待定
+            window.location.href = "http://localhost:63342/tuoguan/view/notice.html";
+        }
+    </script>
+</body>
+</html>
